@@ -1,4 +1,3 @@
-
 ports:
   - port: 8080
     onOpen: open-browser
@@ -8,7 +7,6 @@ tasks:
   - name: shell
     init: git config pull.rebase false
     command: >
-
 vscode:
   extensions:
     - mhutchie.git-graph
